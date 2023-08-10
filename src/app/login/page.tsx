@@ -5,11 +5,6 @@ import Image from 'next/image'
 import { SubmitHandler, useForm } from 'react-hook-form'
 import useAuth from '@/hooks/useAuth'
 
-export const metadata: Metadata = {
-  title: 'Login',
-  description: 'Login Page',
-}
-
 interface Inputs {
   email: string
   password: string

@@ -2,7 +2,6 @@
 import { useState, useEffect } from 'react';
 import { BellIcon } from '@heroicons/react/20/solid';
 import { MagnifyingGlassIcon } from '@heroicons/react/24/solid';
-import Link from 'next/link';
 import useAuth from '@/hooks/useAuth';
 
 const Header = () => {

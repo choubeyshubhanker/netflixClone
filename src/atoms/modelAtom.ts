@@ -1,3 +1,4 @@
+"use client"
 import { atom } from 'recoil'
 import { Movie } from '../typings'
 
